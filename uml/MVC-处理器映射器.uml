@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.servlet.DispatcherServletTests</OriginalElement>
+  <nodes>
+    <node x="556.0" y="102.0">org.springframework.web.servlet.handler.MappedInterceptor</node>
+    <node x="279.0" y="102.0">org.springframework.web.servlet.handler.MatchableHandlerMapping</node>
+    <node x="4.0" y="505.0">org.springframework.web.servlet.FrameworkServlet</node>
+    <node x="491.0" y="505.0">org.springframework.web.servlet.HandlerExecutionChain</node>
+    <node x="39.0" y="102.0">org.springframework.web.servlet.handler.AbstractHandlerMapping</node>
+    <node x="0.0" y="704.0">org.springframework.web.servlet.mvc.method.RequestMappingInfo</node>
+    <node x="0.0" y="306.0">org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping</node>
+    <node x="192.0" y="0.0">org.springframework.web.servlet.HandlerMapping</node>
+    <node x="0.0" y="607.0">org.springframework.web.servlet.DispatcherServlet</node>
+    <node x="552.0" y="0.0">org.springframework.web.servlet.HandlerInterceptor</node>
+    <node x="137.5" y="408.0">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</node>
+    <node x="15.5" y="204.0">org.springframework.web.servlet.handler.AbstractHandlerMethodMapping</node>
+    <node x="226.0" y="505.0">org.springframework.web.servlet.DispatcherServletTests</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.web.servlet.handler.MatchableHandlerMapping" target="org.springframework.web.servlet.HandlerMapping">
+      <point x="0.0" y="-26.0" />
+      <point x="393.0" y="77.0" />
+      <point x="310.5" y="77.0" />
+      <point x="39.5" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.AbstractHandlerMethodMapping" target="org.springframework.web.servlet.handler.AbstractHandlerMapping">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.AbstractHandlerMapping" target="org.springframework.web.servlet.HandlerMapping">
+      <point x="0.0" y="-26.0" />
+      <point x="149.0" y="77.0" />
+      <point x="231.5" y="77.0" />
+      <point x="-39.5" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.DispatcherServlet" target="org.springframework.web.servlet.FrameworkServlet">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" target="org.springframework.web.servlet.handler.MatchableHandlerMapping">
+      <point x="66.75" y="-26.0" />
+      <point x="337.75" y="383.0" />
+      <point x="393.0" y="383.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" target="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping">
+      <point x="-66.75" y="-26.0" />
+      <point x="204.25" y="383.0" />
+      <point x="149.0" y="383.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping" target="org.springframework.web.servlet.handler.AbstractHandlerMethodMapping">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.MappedInterceptor" target="org.springframework.web.servlet.HandlerInterceptor">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8414948453608248" x="370.5" y="378.0" />
+  <SelectedNodes>
+    <node>org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

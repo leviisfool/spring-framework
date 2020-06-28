@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.context.ContextLoaderListener</OriginalElement>
+  <nodes>
+    <node x="35.0" y="0.0">java.util.EventListener</node>
+    <node x="240.0" y="102.0">org.springframework.web.context.ContextLoader</node>
+    <node x="281.0" y="301.0">org.springframework.web.context.ContextLoaderTests</node>
+    <node x="0.0" y="403.0">org.springframework.web.context.support.XmlWebApplicationContext</node>
+    <node x="12.0" y="301.0">org.springframework.web.context.WebApplicationContext</node>
+    <node x="0.0" y="500.0">javax.servlet.ServletContext</node>
+    <node x="106.5" y="204.0">org.springframework.web.context.ContextLoaderListener</node>
+    <node x="0.0" y="102.0">javax.servlet.ServletContextListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javax.servlet.ServletContextListener" target="java.util.EventListener">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.context.support.XmlWebApplicationContext" target="org.springframework.web.context.WebApplicationContext">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.context.ContextLoaderListener" target="javax.servlet.ServletContextListener">
+      <point x="-53.0" y="-26.0" />
+      <point x="159.5" y="179.0" />
+      <point x="110.0" y="179.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="org.springframework.web.context.ContextLoaderListener" target="org.springframework.web.context.ContextLoader">
+      <point x="53.0" y="-26.0" />
+      <point x="265.5" y="179.0" />
+      <point x="315.0" y="179.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.838" x="298.0" y="240.0" />
+  <SelectedNodes>
+    <node>org.springframework.web.context.ContextLoaderListener</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
